@@ -1,0 +1,24 @@
+.character-image {
+  border-radius: 1.25rem;
+  box-shadow: var(--custom-box-shadow);
+  flex-basis: 40%;
+  flex-grow: 1;
+  height: 18.75rem;
+}
+
+.dead {
+  border: 0.938rem solid #ce3535;
+}
+
+.alive {
+  border: 0.938rem solid #37872a;
+}
+
+.unknown {
+  border: 0.938rem solid #8e9090;
+}
+
+.character-image img {
+  height: 100%;
+  width: 100%;
+}

@@ -1,0 +1,18 @@
+.banner {
+  background-image: url("../../../../images/rick-and-morty-wallpaper.jpeg");
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+
+.banner-text {
+  bottom: 0.313rem;
+  color: var(--font-color);
+  left: 1.25rem;
+  position: absolute;
+}
+
+.banner-text h3 {
+  font-family: "Kaushan Script", cursive;
+  font-size: 1.875rem;
+}

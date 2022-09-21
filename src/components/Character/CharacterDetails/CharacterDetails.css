@@ -1,0 +1,12 @@
+.character-details {
+  flex-basis: 60%;
+  flex-grow: 5;
+  padding-left: var(--padding-x-left);
+}
+
+@media screen and (max-width: 48rem) {
+  .character-details {
+    margin-top: var(--margin-y-top);
+    padding: 0;
+  }
+}

@@ -1,0 +1,21 @@
+.card {
+  background-color: var(--card-background-color);
+  border-radius: 0.625rem;
+  box-shadow: var(--custom-box-shadow);
+  color: var(--card-font-color);
+  display: flex;
+  margin: var(--margin-y) auto;
+  padding: 1.25rem;
+  transition: 0.5s;
+  width: 60%;
+}
+
+.card:hover {
+  background-color: var(--card-background-color-hover);
+}
+
+@media screen and (max-width: 48rem) {
+  .card {
+    display: block;
+  }
+}

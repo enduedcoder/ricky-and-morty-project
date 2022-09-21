@@ -1,0 +1,15 @@
+:root {
+  --font-color: #ffffff;
+  --custom-box-shadow: 0 0.25rem 0.625rem 0 rgb(0 0 0 / 20%),
+    0 0.25rem 1.25rem 0 rgb(0 0 0 / 19%);
+
+  --button-background-color: #000;
+
+  --padding-x-left: 2.5rem;
+  --margin-y-top: 1.25rem;
+  --margin-y: 2rem;
+
+  --card-font-color: #000;
+  --card-background-color: #f7f9fa;
+  --card-background-color-hover: #d3d3d3;
+}
